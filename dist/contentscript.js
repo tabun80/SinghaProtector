@@ -1,0 +1,1 @@
+chrome.storage.sync.get(["active"],(function(t){if(t.active){var e=document.body,o=document.createElement("div");o.id="singha-protector-alert",o.textContent="本番環境！！！！！！！！！",o.style.color="#fff",o.style.backgroundColor="#f00",o.style.position="fixed",o.style.width="100vw",o.style.height="20px",o.style.opacity=".85",o.style.zIndex="2147483647",e.insertBefore(o,e.firstChild)}}));

@@ -1,0 +1,1 @@
+chrome.tabs.onUpdated.addListener((function(t,e,n){"complete"===e.status&&n.url.indexOf("https://singha.coiney.com/")>-1&&chrome.tabs.executeScript(null,{file:"stop.js"},(function(){}))}));
